@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1ns / 1ps 
 module alu(busA, busB, ALUctr, zero, ALU_out, Addr, shamt);
     input  [31:0] busA, busB;    // 來自暫存器或立即數的 32-bit 運算元
     input  [3:0]  ALUctr;       // 由 Control Unit 產生的 ALU 控制訊號
